@@ -1,0 +1,50 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  font-size: 12rem;
+  justify-content: center;
+
+  span {
+    color: blue;
+  }
+
+  .loadingSection {
+    position: absolute;
+    bottom: 80rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    width: 100%;
+    gap:10rem;
+
+    span{
+        color:#919bc9;
+        font-weight: 600;
+        font-size:13rem;
+    }
+  }
+
+  .loadingBar {
+    width: 300rem;
+    border: solid 1rem #d6d6d6;
+    margin: auto;
+    height: 15rem;
+    border-radius: 8rem;
+
+    left: 50%;
+    display: flex;
+    align-items: center;
+ 
+
+    .progress {
+      width: 30%;
+      background: #919bc9;
+      height: 80%;
+      border-radius: 8rem;
+    }
+  }
+}

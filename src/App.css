@@ -1,0 +1,11 @@
+@import "normalize.css";
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: calc(100vw / 390);
+}
+#root {
+  text-align: center;
+  height: 100vh;
+}

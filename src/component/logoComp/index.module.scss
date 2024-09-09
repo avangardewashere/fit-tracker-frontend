@@ -1,0 +1,24 @@
+.logoImage {
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 60rem;
+    height: 25rem;
+  }
+}
+
+.logoText {
+  color: #919bc9;
+  font-weight: 900;
+  font-size: 24rem;
+  font-family: Helvetica;
+  text-height: 12rem;
+  span {
+    font-size: 24rem;
+    color: #4e4e4e;
+  }
+}
