@@ -32,15 +32,17 @@
     width: 300rem;
     border: solid 1rem #d6d6d6;
     margin: auto;
-    height: 15rem;
+    height: 16rem;
     border-radius: 8rem;
 
     left: 50%;
     display: flex;
     align-items: center;
+    
  
 
     .progress {
+      margin:1rem 1rem 0rem;
       width: 30%;
       background: #919bc9;
       height: 80%;

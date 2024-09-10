@@ -6,7 +6,6 @@ const Loading = () => {
   return (
     <div className={clsx(style.loading)}>
       <LogoImage></LogoImage>
-
       <div className={clsx(style.loadingSection)}>
         <div className={clsx(style.loadingBar)}>
           <div className={clsx(style.progress)}></div>
