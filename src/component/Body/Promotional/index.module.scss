@@ -1,0 +1,27 @@
+.promotional{
+    width:100%;
+    height:220rem;
+    // background:lightcyan;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // flex-direction: column;
+     .title{
+      padding-block:6rem;
+      width: 100%;
+      font-family: Helvetica, sans-serif;
+      font-size:16rem;
+      font-weight:700;
+      display: flex;
+      color:#c3c3c3;
+      padding:4rem 18rem; 
+     }
+
+    .caroBanner{
+        width:95%;
+        height:180rem;
+        background:#d6d6d6;
+        margin-inline:auto 0;
+        border-radius:12rem;
+    }
+}
