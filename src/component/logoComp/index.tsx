@@ -1,16 +1,23 @@
 import clsx from "clsx"
 import style from "./index.module.scss"
 import logoImg from "./../../assets/logo.svg";
-const LogoImage = () => {
+import { memo } from "react";
+
+interface LogoImageProps {
+  imgSize?:number
+  textSize?:number
+}
+
+const LogoImage:React.FC<LogoImageProps> = memo((props) => {
+    const {imgSize, textSize} = props;
   return (
     <div className={clsx(style.logoImage)}>
-   
-    <img src={logoImg} alt="loading-page" />
-    <div className={clsx(style.logoText)}>
-      Fit<span>Up</span>
+    <img style={{width:imgSize ?? "75rem",height: imgSize ? imgSize/3 : "25rem"}} src={logoImg} alt="loading-page" />
+    <div  style={{fontSize:textSize?? "24rem"}} className={clsx(style.logoText)}>
+      Fit<span >Up</span>
     </div>
   </div>
   )
-}
+})
 
 export default LogoImage
