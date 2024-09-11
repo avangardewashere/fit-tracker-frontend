@@ -13,10 +13,13 @@ const AccountPage = () => {
       <br />
       <div className={clsx(style.accountMenu)}>
         <div className={style.listTitle}>
-
+            General Settings
         </div>
         <div className={clsx(style.listItem)}>
-
+        Account  
+        </div>
+        <div className={clsx(style.listItem)}>
+        Application 
         </div>
       </div>
       <br />
