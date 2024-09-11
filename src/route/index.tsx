@@ -1,13 +1,19 @@
- import HomePage from "../page/Home"
-import Loading from "../page/LoadingPage"
+import AccountPage from "../page/Account";
+import HomePage from "../page/Home";
+import Loading from "../page/LoadingPage";
 
 const routes = [
   {
     path: "*",
     element: <HomePage />,
-  },  {
+  },
+  {
     path: "/loading",
     element: <Loading />,
   },
-]
-export default routes
+  {
+    path: "/account",
+    element: <AccountPage />,
+  },
+];
+export default routes;
